@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For Ponnu ♡ — From Achu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sparkles" aria-hidden="true"></div>
+<div class="music-dock"><button id="musicToggle" class="music-toggle" type="button">▶ Play our song</button><span id="musicStatus">Tap to hear your audio ♡</span></div>
+<header class="hero">
+  <p class="eyebrow">A little universe made just for you</p>
+  <h1>Happy Birthday, <em>Ponnu</em> 💗</h1>
+  <p class="sub">And happy our first anniversary, ente bharye.</p>
+  <p class="from">With all my love, <strong>— Achu</strong></p>
+  <button class="primary" id="startBtn">Open your little surprise ✨</button>
+  <div class="scrollhint">scroll slowly, muthe ↓</div>
+</header>
+<main>
+<section class="countdown panel">
+  <p class="eyebrow">OUR SPECIAL DAY</p><h2>21 November 2026 💋</h2>
+  <div id="timer" class="timer" aria-live="polite"></div><p id="timerCaption">Counting down to our birthday + anniversary</p>
+</section>
+<section class="panel question">
+  <p class="eyebrow">FIRST, AN IMPORTANT QUESTION</p><h2>Ponnu… do you love Achu? 🥹</h2>
+  <div class="answers"><button class="primary" id="yesBtn">YES, my Achu ❤️</button><button id="noBtn" class="no">No 🙈</button></div>
+  <p id="answerMsg" class="answer-msg">Choose honestly, koche… 👀</p>
+</section>
+<section class="panel">
+  <p class="eyebrow">OUR LITTLE TIME CAPSULE</p><h2>Us, in little pieces 📸</h2>
+  <p class="muted">Every picture keeps a tiny piece of our story.</p>
+  <div class="gallery">
+    <figure><img src="assets/photos/memory1.jpeg" alt="Ponnu in a beautiful saree"><figcaption>That beautiful smile of yours 💛</figcaption></figure>
+    <figure><img src="assets/photos/memory2.jpeg" alt="A romantic illustrated portrait of us"><figcaption>Unnodu vazhvathu… my favourite dream ❤️</figcaption></figure>
+    <figure><img src="assets/photos/memory3.jpeg" alt="A black and white photo of us"><figcaption>One frame, two hearts 🖤</figcaption></figure>
+    <figure><img src="assets/photos/memory4.jpeg" alt="A cute filtered selfie"><figcaption>My cute ponnu 😚</figcaption></figure>
+    <figure><img src="assets/photos/memory5.jpeg" alt="A memory of us together"><figcaption>Little moments, big feelings 💗</figcaption></figure>
+    <figure><img src="assets/photos/memory6.jpeg" alt="Another memory of us together"><figcaption>More memories to make, muthe ✨</figcaption></figure>
+  </div>
+</section>
+<section class="panel story">
+  <p class="eyebrow">CHAPTER ONE: US</p><h2>365 days with you 🥹</h2>
+  <p>Ponnnah🥹… nammal ille, ithu correct paranjal oru year munbu ee divasam aanu nammal onnayathu. Athum ninte birthday wish cheytha purake nee paranja aa karyam… “daa, nee annu paranja karyam onnude para.” Njan paranju, neeyum annu onnayathode nammal orumichayi, muthe. 🥹❤️</p>
+  <button class="reveal" data-target="story2">Read the next page 💌</button>
+  <div class="hidden-note" id="story2"><p>Innu nammal 1 year — 365 days complete aakki, muthe. 💋 Entha parayanam ennu enikku sherikkum ariyilla. Nammude relationship-il pala problems vannittundu, pala beautiful moments undayittundu. Ellam parayanam ennu undu, pakshe innu paranju theerilla.</p><p>Oru karyam mathram nee ennum urappayi ariyanam: enthu problems vannalum, aaru thadassam ninnalum, njan ninakku koode nilkkanum nammalude sneham sookshikkanum kazhiyunnath ellam cheyyum. Veettukar aayalum, naattukar aayalum, nammal patience-um snehavum kondu nalla vazhi kandethum. Ellam nallathin, ente ponnu. ❤️</p></div>
+</section>
+<section class="panel letter">
+  <p class="eyebrow">A LETTER I WISH I COULD SAY WHILE HOLDING YOU</p><h2>Open when you need a hug 💌</h2>
+  <button class="envelope" id="letterBtn" aria-expanded="false">💌 Tap to open your letter</button>
+  <div id="letter" class="letter-content hidden-note"><p>Ente ponnu,</p><p>Innu ninte day aanu, muthe — ninte mathram alla, nammudeyum! 😁💋 Happy birthday, babyyy. Ninte dreams ellam nadakkanam, ninte face-il ee chiri eppozhum undavanam. Life eppozhum easy aavilla, pakshe nee ottakkalla. Njan ninte koode ninnu, ninne kelkkanum, ninne support cheyyanum, nammalude memories kooduthal beautiful aakkanum agrahikkunnu.</p><p>Ente ponn aanu nee. Happy birthday, ente babyy, and happy first anniversary, dear bharye. 💋💋💋</p><p>Forever cheering for you,<br><strong>— Ninte Achu ❤️</strong></p></div>
+</section>
+<section class="panel gifts">
+  <p class="eyebrow">THREE TINY GIFTS FOR MY GIRL</p><h2>Choose a mystery box 🎁</h2>
+  <div class="gift-grid">
+    <button class="gift" data-gift="0"><span>🎁</span><b>Gift 1</b><small>Tap to reveal</small></button>
+    <button class="gift" data-gift="1"><span>🎀</span><b>Gift 2</b><small>What is inside?</small></button>
+    <button class="gift" data-gift="2"><span>💝</span><b>Gift 3</b><small>One more secret</small></button>
+  </div><p id="giftMsg" class="answer-msg">Psst… all three are made with love.</p>
+</section>
+<section class="panel promises">
+ <p class="eyebrow">A FEW PROMISES, MUTHE</p><h2>Tap a promise ✨</h2>
+ <div class="promise-list"><button class="reveal" data-promise="I will listen to you, even when finding the right words is hard. ❤️">Promise 1</button><button class="reveal" data-promise="I will celebrate your wins like they are my own. 🌷">Promise 2</button><button class="reveal" data-promise="I will keep choosing honesty, patience, and kindness with you. 🫶">Promise 3</button></div>
+ <p id="promiseMsg" class="answer-msg"></p>
+</section>
+<section class="panel">
+ <p class="eyebrow">A SECRET JUST FOR YOU</p><h2>Unlock Achu's hidden message 🔐</h2>
+ <p class="muted">Hint: the name I call you when my heart gets extra soft.</p>
+ <div class="secret-row"><input id="secretInput" type="text" placeholder="Type the secret name…" autocomplete="off" aria-label="Secret name"><button class="primary" id="unlockBtn">Unlock 💗</button></div>
+ <p id="secretMsg" class="answer-msg" aria-live="polite"></p>
+ <div id="secretReveal" class="hidden-note"><p>Correct, ente Ponnu! 🥹 If I could pause one moment in time, I would choose a moment where you are smiling and I get to be the reason. You are not just my favourite person—you are my favourite place to come back to. — Achu ❤️</p></div>
+</section>
+<section class="panel">
+ <p class="eyebrow">A VIRTUAL HUG FROM ACHU</p><h2>Need a hug, koche? 🫂</h2>
+ <p>Press and hold the button for three seconds. Imagine me giving you the biggest, safest hug.</p>
+ <button class="primary" id="hugBtn">Press and hold for your hug 🫂</button>
+ <p id="hugMsg" class="answer-msg" aria-live="polite"></p>
+</section>
+<section class="panel">
+ <p class="eyebrow">A TINY LOVE METER</p><h2>How much does Achu love you? 💞</h2>
+ <button class="primary" id="meterBtn">Measure my love</button>
+ <div id="meterResult" class="hidden-note"><h2>♾️ 100% + infinity</h2><p>Calculation failed: there isn't a number big enough for this, ponnu. 😚</p></div>
+</section>
+<section class="panel">
+ <p class="eyebrow">OUR FUTURE, ONE LITTLE PROMISE AT A TIME</p><h2>Open a future memory 🌙</h2>
+ <div class="promise-list"><button class="reveal" data-future="A quiet evening walk, your hand in mine, and no hurry to go home. 🌙">A simple date</button><button class="reveal" data-future="A photo together every year, so we can look back and see how our story grew. 📸">A yearly tradition</button><button class="reveal" data-future="A day when we celebrate your dreams and everything you worked hard for. 🌷">Your dream day</button></div>
+ <p id="futureMsg" class="answer-msg" aria-live="polite"></p>
+</section>
+<section class="panel music">
+ <p class="eyebrow">OUR BACKGROUND SONG</p><h2>A little music for us 🎶</h2>
+ <p>Song suggestion: <strong>“Munbe Vaa” — Sillunu Oru Kaadhal</strong>, a soft Tamil romantic song that suits this memory-filled page.</p>
+ <p class="muted">Add a legally obtained MP3 named <code>our-song.mp3</code> to <code>assets/music/</code>, then tap play. Browsers require a tap before music starts.</p>
+ <audio id="audio" controls loop playsinline preload="auto">
+   <source src="assets/music/our-song.mp3" type="audio/mpeg">
+   Your browser does not support audio.
+ </audio>
+ <p class="muted" id="musicHint">Your audio is ready and set to repeat. Tap “Open your little surprise” to start it; browser rules may block sound until you tap.</p>
+</section>
+<section class="finale panel">
+ <p class="eyebrow">ONE LAST SECRET</p><h2>Innu oru cheriya question, ponnu…</h2>
+ <p>Will you keep making little memories with your Achu? 🥹</p>
+ <button class="primary" id="finalBtn">Open the final surprise 💖</button>
+ <div id="finalMsg" class="hidden-note"><h2>It's you. Always you. ❤️</h2><p>Happy birthday, ente ponnu. Happy first anniversary to us. Nammude story ivide theerunnilla… ithu thudakkam mathram aanu. — Achu 💋</p><div class="big-heart">♥</div></div>
+</section>
+</main>
+<footer>Made with all my heart, for Ponnu — from Achu ♡</footer>
+<script src="script.js"></script>
+</body></html>
